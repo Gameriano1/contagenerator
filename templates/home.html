@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!--   <link rel="stylesheet" type="text/css" href="styles.css"/> -->
+  <meta charset="utf-8">
+  <title>Vai tomar no cu</title>
+  <style>
+    button {
+      display: inline-block;
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 50px 130px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      cursor: pointer;
+      margin: 5px;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      position: center;
+  }
+    
+  button:hover {
+    background-color: blue;
+  }
+    
+  div{
+    display: flex; 
+    justify-content: space-between;
+    display: table;
+    margin: 0 auto
+  }
+
+  p {
+    font-size: 70px;
+    text-align:center
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  </style>
+</head>
+<body style="background-color:black;">
+  <p style="color:white"> {{ conta }} </p>
+  <div class="buttons">
+    <div class="action_btn">
+      <form action="/deletar_conta/" method="post">
+        <button name="Conta Valida" id="ContaValida" type="submit">Conta Valida</button>
+      </form>
+      <form action="/nova_conta/" method="post">
+        <button name="Nova Conta" id="NovaConta" type="submit">Nova Conta</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
