@@ -20,12 +20,12 @@ def deletarconta():
     for line in lines:
       if aleatorio not in line:
           w.write(line)
-  return redirect("https://bot.leonifrazao.repl.co")
+  return redirect("https://generatorcontasx.onrender.com/")
 
 @app.route("/nova_conta/", methods=['POST'])
 def novaconta():
   print("deu certo kkkkk")
-  return redirect("https://bot.leonifrazao.repl.co")
+  return redirect("https://generatorcontasx.onrender.com/")
 
 if __name__ == '__main__':
   app.run(debug=True)
