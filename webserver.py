@@ -13,7 +13,6 @@ def home():
 
 @app.route("/deletar_conta/", methods=['POST'])
 def deletarconta():
-  print("deu certo kkkkk")
   with open("users.txt", "r") as w:
     lines =  w.readlines()
   with open("users.txt", "w") as w:
@@ -24,7 +23,6 @@ def deletarconta():
 
 @app.route("/nova_conta/", methods=['POST'])
 def novaconta():
-  print("deu certo kkkkk")
   return redirect("https://generatorcontasx.onrender.com/")
 
 if __name__ == '__main__':
