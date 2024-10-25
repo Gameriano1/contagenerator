@@ -53,10 +53,10 @@ Cada linha deve conter um e-mail e uma senha separados por dois pontos (`:`).
 
 2. **Execute o script:**
 
-   Execute o arquivo principal `gerador_contas.py` (ou outro nome que o script tenha) para iniciar o processo de geração de contas.
+   Execute o arquivo principal `webserver.py` para iniciar o processo de geração de contas.
 
    ```bash
-   python gerador_contas.py
+   python webserver.py
    ```
 
 3. **Visualize as contas geradas:**
@@ -65,13 +65,10 @@ Cada linha deve conter um e-mail e uma senha separados por dois pontos (`:`).
 
 ### Exemplo de Saída
 
-Após rodar o script, você verá uma saída semelhante a esta no terminal:
+Após rodar o script, você verá uma saída semelhante a esta no webserver:
 
 ```
-Contas geradas com sucesso:
 - email1@example.com:password1
-- email2@example.com:password2
-- email3@example.com:password3
 ```
 
 ## Contribuições
